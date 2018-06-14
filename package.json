@@ -1,6 +1,6 @@
 {
   "name": "magicalstick",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "さなボタンのリソースを管理するツールを目指しています",
   "main": "index.js",
   "scripts": {
