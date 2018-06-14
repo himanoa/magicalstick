@@ -8,6 +8,9 @@
   },
   "author": "himanoa",
   "license": "MIT",
+  "bin": {
+    "magicalstick": "index.js"
+  },
   "dependencies": {
     "cac": "^5.0.10",
     "cheerio-httpcli": "^0.7.3"
