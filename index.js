@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const cac = require("cac");
 const client = require("cheerio-httpcli");
 const { join } = require("path");
