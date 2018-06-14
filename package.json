@@ -9,6 +9,7 @@
   "author": "himanoa",
   "license": "MIT",
   "dependencies": {
-    "cac": "^5.0.10"
+    "cac": "^5.0.10",
+    "cheerio-httpcli": "^0.7.3"
   }
 }
