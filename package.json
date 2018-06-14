@@ -1,0 +1,14 @@
+{
+  "name": "magicalstick",
+  "version": "0.0.1",
+  "description": "さなボタンのリソースを管理するツールを目指しています",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "himanoa",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^5.0.10"
+  }
+}
