@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "cac": "^5.0.10",
-    "cheerio-httpcli": "^0.7.3"
+    "cheerio-httpcli": "^0.7.3",
+    "jquery": "^3.3.1"
   }
 }
