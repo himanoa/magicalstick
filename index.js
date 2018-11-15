@@ -5,7 +5,7 @@ const { join } = require("path");
 
 const cli = cac();
 
-const host = "sanabutton.ojaru.jp";
+const host = "www.natorisana.love";
 const protocol = "http";
 const ext = "mp3";
 
