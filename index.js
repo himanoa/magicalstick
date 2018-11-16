@@ -5,7 +5,8 @@ const { join } = require("path");
 
 const cli = cac();
 
-const host = "sanabutton.ojaru.jp";
+const host = "www.natorisana.love";
+const prefix = "sounds";
 const protocol = "http";
 const ext = "mp3";
 
@@ -18,7 +19,7 @@ const defaultCommand = cli.command(
     client.fetch(`${protocol}://${host}`, function(err, $, res) {
       $(".sounds").each(function(val) {
         console.log(
-          protocol + "://" + join(host, `${$(this).attr()["data-file"]}.${ext}`)
+          protocol + "://" + join(host, prefix, `${$(this).attr()["data-file"]}.${ext}`)
         );
       });
     });
